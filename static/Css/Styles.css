@@ -1,0 +1,51 @@
+body {
+    background-color: #343a40;
+    color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+  }
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+  }
+  .card-header {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+  }
+  .card-body {
+    padding: 2rem;
+  }
+  .btn-primary {
+    background-color: #4e54c8;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #8f94fb;
+  }
+  .alert {
+    border-radius: 15px;
+    text-align: center;
+  }
+  label {
+    font-weight: bold;
+  }
+  input, select {
+    background: rgba(255, 255, 255, 0.1);
+    color: #f8f9fa;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  input:focus, select:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+  }
+  
